@@ -6,6 +6,6 @@ screen.bgcolor("black")
 screen.title("Classic Snake Game")
 
 segment_1 = Turtle("square")
-
+segment_1.color("white")
 
 screen.exitonclick()
