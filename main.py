@@ -5,7 +5,7 @@ screen.setup(width=600, height=600)
 screen.bgcolor("black")
 screen.title("Classic Snake Game")
 
-segment_1 = Turtle
+segment_1 = Turtle("square")
 
 
 screen.exitonclick()
