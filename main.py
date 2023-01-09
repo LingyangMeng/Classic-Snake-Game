@@ -11,4 +11,7 @@ segment_1.color("white")
 segment_2 = Turtle("square")
 segment_2.color("white")
 
+segment_3 = Turtle("square")
+segment_3.color("white")
+
 screen.exitonclick()
