@@ -8,4 +8,7 @@ screen.title("Classic Snake Game")
 segment_1 = Turtle("square")
 segment_1.color("white")
 
+segment_2 = Turtle("square")
+segment_2.color("white")
+
 screen.exitonclick()
