@@ -7,11 +7,13 @@ screen.title("Classic Snake Game")
 
 starting_positions = [(0, 0), (-20, 0), (-40, 0)]
 
+segments = []
+
 for position in starting_positions:
 
     segment = Turtle("square")
     segment.color("white")
     segment.goto(position)
-
+    segment.append(segment)
 
 screen.exitonclick()
