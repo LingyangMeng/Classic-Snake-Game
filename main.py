@@ -16,4 +16,6 @@ for position in starting_positions:
     segment.goto(position)
     segment.append(segment)
 
+game_is_on = True
+
 screen.exitonclick()
